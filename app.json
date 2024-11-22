@@ -9,13 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joseph1mont.Loyalty"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.myapp"
+    },
+    "notification": {
+      "vapidPublicKey": "BOx200fU2nHgFl8q8QWx2OTLpsj9M8X-oICZ2E5aGM5kyKZ7L6J9-_Sner5jdIc-GHwYjVCuzXCyxExuew3cRS0"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +41,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7bcb5b1a-c22d-4a5c-bb11-78e3547e12df"
+      }
     }
   }
 }
